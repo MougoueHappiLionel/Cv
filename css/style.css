@@ -181,6 +181,7 @@ a.color {
 }
 .menu-vertical{
 	width: 20%;
+    background: pink;
 	position: relative;
 }
 .menu-vertical > img{
