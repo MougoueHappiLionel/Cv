@@ -9,13 +9,13 @@
       			<input type="checkbox" name="" id="check0">
       			<label for="check0">
 	                <div class="active">
-	     				<img src="assets/images/checked.png">
+	     				<img src="../assets/images/checked.png">
 	                </div>
       			</label>
     		</div>
     		 <h3>Dévéloppement Front-end</h3>
     		<div class="ico">
-    			<img src="assets/images/star.png">
+    			<img src="../assets/images/star.png">
     		</div>
 		</div>
 		<div class="list">
@@ -32,13 +32,13 @@
       			<input type="checkbox" name="" id="check1">
       			<label for="check1">
 	                <div class="active">
-	     				<img src="assets/images/checked.png">
+	     				<img src="../assets/images/checked.png">
 	                </div>
       			</label>
     		</div>
     		 <h3>Dévéloppement Back-end</h3>
     		<div class="ico">
-    			<img src="assets/images/star.png">
+    			<img src="../assets/images/star.png">
     		</div>
 		</div>
 		<div class="list">
@@ -55,13 +55,13 @@
       			<input type="checkbox" name="" id="check2">
       			<label for="check2">
 	                <div class="active">
-	     				<img src="assets/images/checked.png">
+	     				<img src="../assets/images/checked.png">
 	                </div>
       			</label>
     		</div>
     		 <h3>Dévéloppement Mobile</h3>
     		<div class="ico">
-    			<img src="assets/images/star.png">
+    			<img src="../assets/images/star.png">
     		</div>
 		</div>
 		<div class="list">
@@ -78,13 +78,13 @@
       			<input type="checkbox" name="" id="check3">
       			<label for="check3">
 	                <div class="active">
-	     				<img src="assets/images/checked.png">
+	     				<img src="../assets/images/checked.png">
 	                </div>
       			</label>
     		</div>
     		 <h3>UI / UX Design</h3>
     		<div class="ico">
-    			<img src="assets/images/star.png">
+    			<img src="../assets/images/star.png">
     		</div>
 		</div>
 		<div class="list">
@@ -101,13 +101,13 @@
       			<input type="checkbox" name="" id="check4">
       			<label for="check4">
 	                <div class="active">
-	     				<img src="assets/images/checked.png">
+	     				<img src="../assets/images/checked.png">
 	                </div>
       			</label>
     		</div>
     		 <h3>Base de données & Big Data</h3>
     		<div class="ico">
-    			<img src="assets/images/star.png">
+    			<img src="../assets/images/star.png">
     		</div>
 		</div>
 		<div class="list">
@@ -124,7 +124,7 @@
       			<input type="checkbox" name="" id="check5">
       			<label for="check5">
 	                <div class="active">
-	     				<img src="assets/images/checked.png">
+	     				<img src="../assets/images/checked.png">
 	                </div>
       			</label>
     		</div>
