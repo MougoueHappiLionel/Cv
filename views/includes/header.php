@@ -5,10 +5,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <base href="/MVC/">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Document</title>
 </head>
 <body>
@@ -21,19 +22,20 @@
 				<div class="navbar-content">
 					<div class="nav-btn">
 						<div class="menu-ico">
-							<img src="contents/category.svg" alt="">
+							<img src="assets/images/category.svg" alt="">
 						</div>
 					</div>
 					<input type="text" placeholder="Besoin d'un chef de projet ?">
 				<div class="special">
-					<div class="nav-btn">
+					<div class="nav-btn-1">
 						<div class="menu-ico">
-							<img src="contents/search-normal-1.svg" alt="">
+							<img src="assets/images/search-normal-1.svg" alt="">
 						</div>
 					</div>
-					<div class="nav-btn">
+					<div class="bar"></div>
+					<div class="nav-btn-2">
 						<div class="menu-ico">
-							<img src="" alt="">
+							<img src="assets/images/delete.svg" width="24px" height="24px" alt="">
 						</div>
 					</div>
 				</div>
@@ -43,7 +45,7 @@
 	 			<div class="container">
 		          <div class="flex jcsb aic user">
 		            <div class="avatar">
-		              	<img src="contents/lionel.jpg" width="400px" height="400px" alt="">
+		              	<img src="assets/images/lionel.jpg" width="400px" height="400px" alt="">
 		            </div>
 		            <div class="user-infos">
 		              	<h3><?php echo $nom ?></h3>
@@ -52,9 +54,28 @@
 		          </div>
 	        	</div>
 			</div>
-			<button name="submit" class="float-btn">
-				<img src="contents/add.png" alt="">
-			</button>
+			<div class="fab-container">
+				<div class="fab fab-icon-holder">
+					<img src="assets/images/add.png" alt="">
+				</div>
+			<ul class="fab-options">
+				<li>
+					<div class="fab-icon-holder">
+						<img src="assets/images/send.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="fab-icon-holder">
+						<a href="controllerCv/addCvs"><img src="assets/images/modifier.png" alt=""></a>
+					</div>
+				</li>
+				<li>
+					<div class="fab-icon-holder">
+						<img src="assets/images/document.png" alt="">
+					</div>
+				</li>
+			</ul>
+			</div>
 			</div>
 			<div class="body">
 				<div class="column">
@@ -107,17 +128,18 @@
 			<div class="card1">
 				<div class="head">
 					<div class="ico">
-						<img src="contents/office.png" alt="">
+						<img src="assets/images/office.png" alt="">
 					</div>
 					<div class="text">
 		              <h3>Experience professionnelle</h3>
 		              <small><i>Experience en entreprise</i></small>
 	            	</div>
 	            	<div class="menu-vertical">
-	            		<img src="contents/menuV.png">
+	            		<img src="assets/images/menuV.png">
 	            	</div>
 				</div>
-				<div class="sec">
+			<div class="form2">
+			  <div class="sec">
 	            <div class="title"><?php echo $experience ?></div>
 	            <a href="#" class="color"><?php echo $lien ?></a><br>
 	            <small><?php echo $periode ?></small>
@@ -141,7 +163,8 @@
 	            <div class="title"><?php echo $experience ?></div>
 	            <a href="#" class="color"><?php echo $lien ?></a><br>
 	            <small><?php echo $periode ?></small>
-	          </div>
+	          </div>	          
+			</div>
 			</div>
 
 			<div class="card2">
@@ -153,7 +176,7 @@
 					</div>
 				</div>
 				<div class="image">
-	          		<img src="contents/image.png" alt="">
+	          		<img src="assets/images/image.png" alt="">
 	        	</div>
 			</div>
 
@@ -170,7 +193,7 @@
 		            	<input type="checkbox" name="" id="check7">
 			            <label for="check7">
 			              <div class="active">
-			               	<img src="contents/checked.png">
+			               	<img src="assets/images/checked.png">
 			              </div>
 			            </label>
 		          	</div>
@@ -181,7 +204,7 @@
 		            	<input type="checkbox" name="" id="check6">
 			            <label for="check6">
 			              <div class="active">
-			               	<img src="contents/checked.png">
+			               	<img src="assets/images/checked.png">
 			              </div>
 			            </label>
 		          	</div>

@@ -1,0 +1,25 @@
+body {
+  padding-bottom: 20px;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 550px;
+  padding: 15px;
+  margin: auto;
+  background: #757272;
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.select-form{
+  height: calc(3.5rem + 2px);
+}
+#country{
+  height: 100%;
+}
+.btn-margin{
+  margin-top: 20px;
+}

@@ -5,7 +5,7 @@
 	<div class="card">
 		<div class="head">
 			<div class="ico">
-				<img src="contents/trophy.png" alt="">
+				<img src="assets/images/trophy.png" alt="">
 			</div>
 			<div class="text">
               	<h3>Cursus académique</h3>
@@ -13,9 +13,10 @@
           	  	<small><i>Diplomes et formations certifiantes</i></small>
         	</div>
         	<div class="menu-horizontal">
-        		<img src="contents/menuV.png">
+        		<img src="assets/images/menuV.png">
         	</div>
 		</div>
+    <div class="form2">
 		<div class="sec">
             <div class="title"><?php echo $exp ?></div>
             <a href="#" class="color"><?php echo $mois ?></a>
@@ -46,9 +47,12 @@
             <a href="#" class="color"><?php echo $mois ?></a>
             <small><?php echo $per ?></small>
       	</div>
+    </div>
 	</div>
 </section>
 
 </main>
+    <script src="assets/js/action_btn.js" ></script>
+    <script src="assets/js/jspdf.min.js" ></script>
 </body>
 </html>
