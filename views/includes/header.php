@@ -22,20 +22,20 @@
 				<div class="navbar-content">
 					<div class="nav-btn">
 						<div class="menu-ico">
-							<img src="assets/images/category.svg" alt="">
+							<img src="../assets/images/category.svg" alt="">
 						</div>
 					</div>
 					<input type="text" placeholder="Besoin d'un chef de projet ?">
 				<div class="special">
 					<div class="nav-btn-1">
 						<div class="menu-ico">
-							<img src="assets/images/search-normal-1.svg" alt="">
+							<img src="../assets/images/search-normal-1.svg" alt="">
 						</div>
 					</div>
 					<div class="bar"></div>
 					<div class="nav-btn-2">
 						<div class="menu-ico">
-							<img src="assets/images/delete.svg" width="24px" height="24px" alt="">
+							<img src="../assets/images/delete.svg" width="24px" height="24px" alt="">
 						</div>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 	 			<div class="container">
 		          <div class="flex jcsb aic user">
 		            <div class="avatar">
-		              	<img src="assets/images/lionel.jpg" width="400px" height="400px" alt="">
+		              	<img src="../assets/images/lionel.jpg" width="400px" height="400px" alt="">
 		            </div>
 		            <div class="user-infos">
 		              	<h3><?php echo $nom ?></h3>
@@ -56,12 +56,12 @@
 			</div>
 			<div class="fab-container">
 				<div class="fab fab-icon-holder">
-					<img src="assets/images/add.png" alt="">
+					<img src="../assets/images/add.png" alt="">
 				</div>
 			<ul class="fab-options">
 				<li>
 					<div class="fab-icon-holder">
-						<img src="assets/images/send.png" alt="">
+						<img src="../assets/images/send.png" alt="">
 					</div>
 				</li>
 				<li>
@@ -71,7 +71,7 @@
 				</li>
 				<li>
 					<div class="fab-icon-holder">
-						<img src="assets/images/document.png" alt="">
+						<img src="../assets/images/document.png" alt="">
 					</div>
 				</li>
 			</ul>
@@ -128,14 +128,14 @@
 			<div class="card1">
 				<div class="head">
 					<div class="ico">
-						<img src="assets/images/office.png" alt="">
+						<img src="../assets/images/office.png" alt="">
 					</div>
 					<div class="text">
 		              <h3>Experience professionnelle</h3>
 		              <small><i>Experience en entreprise</i></small>
 	            	</div>
 	            	<div class="menu-vertical">
-	            		<img src="assets/images/menuV.png">
+	            		<img src="../assets/images/menuV.png">
 	            	</div>
 				</div>
 			<div class="form2">
@@ -176,7 +176,7 @@
 					</div>
 				</div>
 				<div class="image">
-	          		<img src="assets/images/image.png" alt="">
+	          		<img src="../assets/images/image.png" alt="">
 	        	</div>
 			</div>
 
@@ -193,7 +193,7 @@
 		            	<input type="checkbox" name="" id="check7">
 			            <label for="check7">
 			              <div class="active">
-			               	<img src="assets/images/checked.png">
+			               	<img src="../assets/images/checked.png">
 			              </div>
 			            </label>
 		          	</div>
@@ -204,7 +204,7 @@
 		            	<input type="checkbox" name="" id="check6">
 			            <label for="check6">
 			              <div class="active">
-			               	<img src="assets/images/checked.png">
+			               	<img src="../assets/images/checked.png">
 			              </div>
 			            </label>
 		          	</div>
